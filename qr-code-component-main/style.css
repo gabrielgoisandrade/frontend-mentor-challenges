@@ -34,9 +34,6 @@ main {
     bottom: 0;
     inset-inline: 0;
     padding: 1rem;
-}
-
-.attribution a {
     color: hsl(228, 45%, 44%);
 }
 
@@ -53,20 +50,19 @@ main {
     box-shadow: 0 1px 20px 0 var(--slate-500);
 }
 
-.content__qr-code {
-    width: 100%;
-    height: auto;
-    border-radius: .8rem;
-}
-
 .content__wrapper {
     display: flex;
     flex-direction: column;
     padding-inline: .5rem;
-    padding-block-end: 1rem;
+    padding-block-end: 1.5rem;
     gap: .8rem;
     text-align: center;
+}
 
+.content__qr-code {
+    width: 100%;
+    height: auto;
+    border-radius: .8rem;
 }
 
 .content__title {
