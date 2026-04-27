@@ -64,18 +64,27 @@ svg {
     border-radius: .3rem;
     background-color: var(--yellow);
     font-weight: 900;
-    font-size: .875rem; 
+    font-size: .875rem;
     align-self: flex-start;
 }
 
 .content__date {
-    font-size: .875rem; 
+    font-size: .875rem;
     font-weight: 500;
 }
 
 .content__title {
-    font-size: 1.5rem; 
-    font-weight: 900;
+    text-decoration: none;
+    color: inherit;
+
+    & h1 {
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+
+    &:is(:hover, :focus) {
+        color: var(--yellow)
+    }
 }
 
 .content__description {
