@@ -28,6 +28,7 @@ main {
     display: grid;
     justify-items: center;
     align-items: center;
+    padding: 2rem;
 }
 
 .content {
@@ -37,6 +38,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    width: 100%;
+    max-width: 375px;
 }
 
 .content-dev {
@@ -84,6 +87,11 @@ main {
     font-size: .875rem;
     font-weight: 500;
     display: block;
+}
+
+.content-links__link:is(:hover, :focus) {
+    background-color: var(--green);
+    color: var(--grey-900);
 }
 
 .attribution {
