@@ -67,15 +67,11 @@ h3 {
 
 ul,
 ol {
-    padding-left: 1.5rem;
+    padding-inline-start: 1.5rem;
 }
 
 :is(ul, ol) li {
     padding-left: 1rem;
-}
-
-li {
-    margin-bottom: .8rem;
 }
 
 .recipe,
@@ -102,7 +98,11 @@ li {
     background-color: var(--white);
     gap: 1.5rem;
     max-width: 47rem;
-    min-width: 20rem
+    min-width: 20rem;
+
+    & li:not(:last-child) {
+        margin-bottom: .8rem;
+    }
 }
 
 .recipe__image {
