@@ -82,7 +82,6 @@ ol {
 .recipe-header {
     display: flex;
     flex-direction: column;
-
 }
 
 .recipe-preparation,
