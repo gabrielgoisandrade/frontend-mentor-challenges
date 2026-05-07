@@ -7,10 +7,22 @@
   inset-inline: 0;
   font-size: 0.6875rem;
   text-align: center;
+  padding: 1rem;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.product {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.5rem;
+  overflow: clip;
+}
+
+.product__image {
+  width: 100%;
+  height: auto;
 }
 
 /* base */
@@ -40,11 +52,11 @@ img {
   display: block;
 }
 
-main {
+.container {
   min-height: inherit;
   display: grid;
-  align-items: center;
-  margin-block-start: 4rem;
+  grid-template-columns: minmax(1fr, 350px);
+  padding-inline: 1rem;
 }
 
 /*# sourceMappingURL=index.css.map */

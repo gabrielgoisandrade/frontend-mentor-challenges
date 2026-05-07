@@ -1,8 +1,8 @@
-@use "../abstracts/functions" as *;
+@use "../abstracts" as *;
 
-main {
+.container {
   min-height: inherit;
   display: grid;
-  align-items: center;
-  margin-block-start: px-to-rem(16);
+  grid-template-columns: minmax(1fr, 350px);
+  padding-inline: px-to-rem(4);
 }

@@ -1,0 +1,12 @@
+@use "../abstracts" as *;
+
+.product {
+  background-color: $white;
+  border-radius: px-to-rem(2);
+  overflow: clip;
+}
+
+.product__image {
+  width: 100%;
+  height: auto;
+}
