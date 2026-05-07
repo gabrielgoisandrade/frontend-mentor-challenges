@@ -1,0 +1,5 @@
+@function px-to-rem($value: 1) {
+  $default: 0.25rem; /* 4px */
+
+  @return calc($value * $default);
+}

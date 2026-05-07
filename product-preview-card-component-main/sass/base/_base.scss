@@ -1,0 +1,8 @@
+@use "../abstracts/functions" as *;
+
+main {
+  min-height: inherit;
+  display: grid;
+  align-items: center;
+  margin-block-start: px-to-rem(16);
+}

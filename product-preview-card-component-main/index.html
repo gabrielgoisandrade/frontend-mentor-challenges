@@ -1,36 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/index.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Fraunces:700" rel="stylesheet" />
+
   <title>Frontend Mentor | Product preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+  <main class="container">
+    <section class="product">
+      <picture>
+        <source media="(max-width: 768px)" srcset="./images/image-product-mobile.jpg">
 
-  Perfume
+        <img src="./images/image-product-desktop.jpg" width="600" height="900" alt="Perfume image">
+      </picture>
 
-  Gabrielle Essence Eau De Parfum
+      <div>
+        <span>Perfume</span>
 
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
+        <h1>Gabrielle Essence Eau De Parfum</h1>
 
-  $149.99
-  $169.99
+        <p>
+          A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
 
-  Add to Cart
-  
+        <div>
+          <span>$149.99</span>
+          <span>$169.99</span>
+        </div>
+
+        <button>Add to Cart</button>
+      </div>
+    </section>
+  </main>
+
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/gabrielgoisandrade">Gabriel Gois Andrade</a>.
   </footer>
 </body>
+
 </html>

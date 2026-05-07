@@ -1,0 +1,50 @@
+/* components */
+/* Primary */
+/* Neutral */
+.attribution {
+  position: static;
+  bottom: 0;
+  inset-inline: 0;
+  font-size: 0.6875rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* base */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: inherit;
+}
+
+body {
+  line-height: 1.4;
+  min-height: 100dvh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  background-color: hsl(30, 38%, 92%);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+main {
+  min-height: inherit;
+  display: grid;
+  align-items: center;
+  margin-block-start: 4rem;
+}
+
+/*# sourceMappingURL=index.css.map */
