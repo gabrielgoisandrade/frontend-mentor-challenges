@@ -72,6 +72,9 @@
   height: auto;
   width: 15px;
 }
+.product-info__add-to-cart:is(:hover, :focus) {
+  background-color: hsl(158, 42%, 18%);
+}
 
 .container {
   min-height: inherit;

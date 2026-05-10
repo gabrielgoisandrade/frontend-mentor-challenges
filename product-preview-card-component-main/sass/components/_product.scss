@@ -60,4 +60,9 @@
     height: auto;
     width: 15px;
   }
+
+  &:is(:hover, :focus) {
+    background-color: $green-700;
+  }
 }
+
