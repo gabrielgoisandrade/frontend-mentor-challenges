@@ -10,3 +10,54 @@
   width: 100%;
   height: auto;
 }
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: px-to-rem(5.5);
+  padding: px-to-rem(8);
+}
+
+.product-info__type {
+  text-transform: uppercase;
+  letter-spacing: px-to-rem(1.5);
+  font-size: px-to-rem(3);
+}
+
+.product-info__prices {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  gap: px-to-rem(4);
+  align-items: center;
+
+  & .product-info__prices--new {
+    color: $green-500;
+    font-weight: 700;
+    font-family: "Fraunces", sans-serif;
+    font-size: px-to-rem(8);
+  }
+
+  & .product-info__prices--old {
+    font-size: px-to-rem(3);
+  }
+}
+
+.product-info__add-to-cart {
+  color: $white;
+  font-weight: 600;
+  letter-spacing: px-to-rem(0.2);
+  font-size: px-to-rem(3.5);
+  padding: px-to-rem(4.5);
+  border-radius: px-to-rem(2);
+  background-color: $green-500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: px-to-rem(2);
+  line-height: 0;
+
+  & img {
+    height: auto;
+    width: 15px;
+  }
+}

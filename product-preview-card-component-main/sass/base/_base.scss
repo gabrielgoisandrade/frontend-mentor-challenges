@@ -1,8 +1,13 @@
 @use "../abstracts" as *;
 
-.container {
-  min-height: inherit;
-  display: grid;
-  grid-template-columns: minmax(1fr, 350px);
-  padding-inline: px-to-rem(4);
+h1 {
+    color: $black;
+    font-weight: 700;
+    font-family: 'Fraunces', sans-serif;
+    font-size: px-to-rem(8);
+    line-height: 1;
+}
+
+p {
+    font-size: px-to-rem(3.5);
 }

@@ -1,0 +1,11 @@
+@use "../abstracts" as *;
+
+.container {
+  min-height: inherit;
+  display: grid;
+  justify-self: center;
+  align-items: baseline;
+  padding-inline: px-to-rem(3);
+  margin-block: px-to-rem(16);
+  max-width: 375px;
+}
