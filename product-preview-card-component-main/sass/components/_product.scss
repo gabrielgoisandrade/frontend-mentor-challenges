@@ -55,6 +55,8 @@
   justify-content: center;
   gap: px-to-rem(2);
   line-height: 0;
+  cursor: pointer;
+  transition: all .2s ease-in;
 
   & img {
     height: auto;
